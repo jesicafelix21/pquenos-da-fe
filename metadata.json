@@ -1,0 +1,6 @@
+{
+  "name": "Pequenos da Fé",
+  "description": "Página de vendas oficial do aplicativo infantil cristão Pequenos da Fé com jogos e atividades bíblicas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

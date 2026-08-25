@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="preload" as="image" href="./images/logo.png"/>
+  <link rel="preload" as="image" href="./images/app-mockup.png"/>
+  <link rel="preload" as="image" href="./images/sons-animais-screenshot.png"/>
+  <link rel="preload" as="image" href="./images/pintando-biblia-screenshot.png"/>
+  <link rel="preload" as="image" href="./images/onde-esta-screenshot.png"/>
+  <link rel="preload" as="image" href="./images/memory-game-screenshot.png"/>
+  <link rel="preload" as="image" href="./images/historinhas-screenshot.png"/>
+  <link rel="preload" as="image" href="./images/checkout-mockup.png"/>
+  <link rel="icon" href="./favicon.png" type="image/png"/>
+  <title>Pequenos da Fé | Jogos e Atividades Bíblicas para Crianças</title>
+  <meta name="author" content="LinkStudio Pro"/>
+  <meta name="description" content="Uma experiência infantil com jogos, histórias e atividades para aprender sobre a Bíblia de forma divertida."/>
+  <meta property="og:title" content="Pequenos da Fé | Jogos e Atividades Bíblicas para Crianças"/>
+  <meta property="og:description" content="Uma experiência infantil com jogos, histórias e atividades para aprender sobre a Bíblia de forma divertida."/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-white text-slate-900 font-sans overflow-x-hidden" style="background-color:#FFFFFF">
+  <div class="min-h-screen bg-white text-slate-900 font-sans overflow-x-hidden" style="background-color:#FFFFFF">
+    <!-- Navigation -->
+    <nav class="py-6 px-6 flex items-center justify-between container mx-auto">
+      <div class="flex items-center gap-4">
+        <div class="w-14 h-14 rounded-2xl overflow-hidden shadow-sm bg-white p-1 border border-sky-100 flex items-center justify-center">
+          <img src="./images/logo.png" alt="Pequenos da Fé Logo" class="w-full h-full object-contain rounded-xl" />
+        </div>
+        <div>
+          <h1 class="font-bold text-xl text-blue-900 leading-tight">Pequenos da Fé</h1>
+          <p class="text-xs text-blue-500 font-medium">Brincando e aprendendo sobre o amor de Deus!</p>
+        </div>
+      </div>
+      <div class="hidden md:flex gap-6 font-medium text-slate-700 items-center">
+        <a href="#jogos" class="hover:text-blue-500 transition-colors">Jogos</a>
+        <a href="#como-funciona" class="hover:text-blue-500 transition-colors">Como funciona</a>
+        <a href="#famílias" class="hover:text-blue-500 transition-colors">Famílias</a>
+        <a href="#oferta" class="bg-sky-400 text-white px-5 py-2 rounded-full font-bold hover:bg-sky-500 transition shadow-sm">Começar agora</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-8 pb-4 px-6 text-center relative overflow-hidden" style="background-color:#F0F9FF">
+      <div class="container mx-auto relative z-10 flex flex-col items-center">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white rounded-full text-sky-500 font-bold mb-4 shadow-sm border border-sky-100 uppercase tracking-wider text-[10px] md:text-xs">
+          <span>🎮</span> APP EDUCATIVO CRISTÃO
+        </div>
+        <h1 class="text-3xl md:text-5xl font-black mb-3 leading-tight max-w-2xl text-blue-900 px-4">“Um jeito divertido de conhecer a Palavra de Deus.”</h1>
+        <p class="text-sm md:text-base mb-6 text-slate-600 max-w-xl mx-auto font-medium px-6 leading-relaxed">Jogos, histórias e atividades pensadas para aproximar as crianças da Bíblia com alegria e leveza.</p>
+        
+        <div class="relative w-full max-w-[280px] md:max-w-[320px] mb-6 flex justify-center items-center">
+          <div class="absolute inset-0 bg-sky-200/40 rounded-full blur-3xl -z-10 scale-125 transform translate-y-10"></div>
+          <div class="relative z-10 w-full">
+            <img src="./images/app-mockup.png" alt="Pequenos da Fé App Mockup" class="w-full h-auto object-contain drop-shadow-[0_15px_40px_rgba(0,0,0,0.12)]" />
+          </div>
+          <div class="absolute top-[20%] -left-8 md:-left-12 text-3xl md:text-4xl pointer-events-none select-none z-20 drop-shadow-md">⭐</div>
+          <div class="absolute top-[30%] -right-8 md:-right-12 text-3xl md:text-4xl pointer-events-none select-none z-20 drop-shadow-md">📚</div>
+          <div class="absolute bottom-[10%] -left-4 md:-left-8 text-3xl md:text-4xl pointer-events-none select-none z-20 drop-shadow-md">✏️</div>
+        </div>
+
+        <a href="#oferta" class="w-[85%] md:w-auto md:px-8 py-3.5 bg-[#22C55E] text-white rounded-2xl font-black text-base md:text-lg hover:bg-green-600 transition shadow-[0_4px_0_rgb(21,128,61)] mb-3 active:shadow-none active:translate-y-[2px] uppercase tracking-wide inline-block">QUERO AGORA POR R$27,90 🚀</a>
+
+        <div class="flex flex-wrap justify-center gap-x-4 gap-y-1 text-[10px] md:text-xs text-blue-800/60 font-bold mb-6">
+          <div class="flex items-center gap-1">✓ Pagamento único</div>
+          <div class="flex items-center gap-1">✓ Acesso vitalício</div>
+          <div class="flex items-center gap-1">✓ Acesso imediato</div>
+        </div>
+
+        <div class="grid grid-cols-2 md:flex md:flex-wrap md:justify-center gap-2.5 max-w-[340px] md:max-w-none mx-auto">
+          <div class="bg-[#BAE6FD]/30 border border-sky-200/50 px-3 py-2 rounded-xl flex items-center gap-2 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)]">
+            <span class="text-sm">⭐</span>
+            <span class="text-[10px] md:text-xs text-blue-900 font-bold whitespace-nowrap">Jogos educativos</span>
+          </div>
+          <div class="bg-[#BAE6FD]/30 border border-sky-200/50 px-3 py-2 rounded-xl flex items-center gap-2 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)]">
+            <span class="text-sm">📖</span>
+            <span class="text-[10px] md:text-xs text-blue-900 font-bold whitespace-nowrap">Histórias bíblicas</span>
+          </div>
+          <div class="bg-[#BAE6FD]/30 border border-sky-200/50 px-3 py-2 rounded-xl flex items-center gap-2 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)]">
+            <span class="text-sm">🏆</span>
+            <span class="text-[10px] md:text-xs text-blue-900 font-bold whitespace-nowrap">Conquistas e desafios</span>
+          </div>
+          <div class="bg-[#BAE6FD]/30 border border-sky-200/50 px-3 py-2 rounded-xl flex items-center gap-2 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)]">
+            <span class="text-sm">❤️</span>
+            <span class="text-[10px] md:text-xs text-blue-900 font-bold whitespace-nowrap">Conteúdo 100% cristão</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <div class="w-full h-10 md:h-12 overflow-hidden relative" style="background-color:#F0F9FF">
+      <div class="absolute w-full h-full bg-white rounded-t-[40px] md:rounded-t-[80px] border-t-2 md:border-t-4 border-white"></div>
+    </div>
+
+    <!-- Games section -->
+    <section id="jogos" class="pt-10 pb-20 container mx-auto px-6 text-center">
+      <h2 class="text-4xl md:text-5xl font-black mb-4 text-blue-900">Aprender a Bíblia é uma aventura! 🌈</h2>
+      <p class="text-lg text-slate-500 mb-12 max-w-2xl mx-auto">Transformamos ensinamentos em experiências mágicas para as crianças.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-3">
+        <!-- 1 -->
+        <div class="relative overflow-hidden h-24 px-5 rounded-[1.5rem] flex items-center shadow-md group cursor-pointer" style="background:linear-gradient(135deg, #3B82F6EE, #3B82F6)">
+          <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl select-none group-hover:opacity-20 transition-opacity pointer-events-none">🌊</div>
+          <div class="absolute -bottom-4 -left-4 opacity-5 text-9xl select-none rotate-12 pointer-events-none">⭐</div>
+          <div class="flex items-center gap-4 z-10 w-full text-left">
+            <div class="flex-shrink-0 w-16 h-16 bg-white/20 rounded-xl backdrop-blur-sm flex items-center justify-center shadow-inner relative">
+              <div class="relative z-10 text-2xl">🦁</div>
+            </div>
+            <div class="flex-grow min-w-0 py-1">
+              <h3 class="font-bold text-xl text-white mb-0 leading-tight tracking-tight drop-shadow-sm">Sons de Animais</h3>
+              <p class="text-white/90 font-medium text-[12px] leading-tight line-clamp-2 opacity-90">Ouça e descubra os animais da Arca</p>
+            </div>
+            <div class="flex-shrink-0">
+              <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md">
+                <span class="text-slate-800 font-bold">›</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="relative overflow-hidden h-24 px-5 rounded-[1.5rem] flex items-center shadow-md group cursor-pointer" style="background:linear-gradient(135deg, #EC4899EE, #EC4899)">
+          <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl select-none group-hover:opacity-20 transition-opacity pointer-events-none">🎨</div>
+          <div class="absolute -bottom-4 -left-4 opacity-5 text-9xl select-none rotate-12 pointer-events-none">☁️</div>
+          <div class="flex items-center gap-4 z-10 w-full text-left">
+            <div class="flex-shrink-0 w-16 h-16 bg-white/20 rounded-xl backdrop-blur-sm flex items-center justify-center shadow-inner relative">
+              <div class="relative z-10 text-2xl">🎨</div>
+            </div>
+            <div class="flex-grow min-w-0 py-1">
+              <h3 class="font-bold text-xl text-white mb-0 leading-tight tracking-tight drop-shadow-sm">Pintando a Bíblia</h3>
+              <p class="text-white/90 font-medium text-[12px] leading-tight line-clamp-2 opacity-90">Desenhos cristãos para colorir</p>
+            </div>
+            <div class="flex-shrink-0">
+              <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md">
+                <span class="text-slate-800 font-bold">›</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="relative overflow-hidden h-24 px-5 rounded-[1.5rem] flex items-center shadow-md group cursor-pointer" style="background:linear-gradient(135deg, #F97316EE, #F97316)">
+          <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl select-none group-hover:opacity-20 transition-opacity pointer-events-none">⭐</div>
+          <div class="absolute -bottom-4 -left-4 opacity-5 text-9xl select-none rotate-12 pointer-events-none">⭐</div>
+          <div class="flex items-center gap-4 z-10 w-full text-left">
+            <div class="flex-shrink-0 w-16 h-16 bg-white/20 rounded-xl backdrop-blur-sm flex items-center justify-center shadow-inner relative">
+              <div class="relative z-10 text-2xl">🔎</div>
+            </div>
+            <div class="flex-grow min-w-0 py-1">
+              <h3 class="font-bold text-xl text-white mb-0 leading-tight tracking-tight drop-shadow-sm">Onde Está?</h3>
+              <p class="text-white/90 font-medium text-[12px] leading-tight line-clamp-2 opacity-90">Encontre a imagem correta</p>
+            </div>
+            <div class="flex-shrink-0">
+              <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md">
+                <span class="text-slate-800 font-bold">›</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="relative overflow-hidden h-24 px-5 rounded-[1.5rem] flex items-center shadow-md group cursor-pointer" style="background:linear-gradient(135deg, #22C55EEE, #22C55E)">
+          <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl select-none group-hover:opacity-20 transition-opacity pointer-events-none">123</div>
+          <div class="absolute -bottom-4 -left-4 opacity-5 text-9xl select-none rotate-12 pointer-events-none">☁️</div>
+          <div class="flex items-center gap-4 z-10 w-full text-left">
+            <div class="flex-shrink-0 w-16 h-16 bg-white/20 rounded-xl backdrop-blur-sm flex items-center justify-center shadow-inner relative">
+              <div class="relative z-10 text-2xl">🔢</div>
+            </div>
+            <div class="flex-grow min-w-0 py-1">
+              <h3 class="font-bold text-xl text-white mb-0 leading-tight tracking-tight drop-shadow-sm">Conte e Toque</h3>
+              <p class="text-white/90 font-medium text-[12px] leading-tight line-clamp-2 opacity-90">Aprenda os números brincando</p>
+            </div>
+            <div class="flex-shrink-0">
+              <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md">
+                <span class="text-slate-800 font-bold">›</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="relative overflow-hidden h-24 px-5 rounded-[1.5rem] flex items-center shadow-md group cursor-pointer" style="background:linear-gradient(135deg, #8B5CF6EE, #8B5CF6)">
+          <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl select-none group-hover:opacity-20 transition-opacity pointer-events-none">🌟</div>
+          <div class="absolute -bottom-4 -left-4 opacity-5 text-9xl select-none rotate-12 pointer-events-none">⭐</div>
+          <div class="flex items-center gap-4 z-10 w-full text-left">
+            <div class="flex-shrink-0 w-16 h-16 bg-white/20 rounded-xl backdrop-blur-sm flex items-center justify-center shadow-inner relative">
+              <div class="relative z-10 text-2xl">🧠</div>
+            </div>
+            <div class="flex-grow min-w-0 py-1">
+              <h3 class="font-bold text-xl text-white mb-0 leading-tight tracking-tight drop-shadow-sm">Jogo da Memória</h3>
+              <p class="text-white/90 font-medium text-[12px] leading-tight line-clamp-2 opacity-90">Encontre os pares bíblicos</p>
+            </div>
+            <div class="flex-shrink-0">
+              <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md">
+                <span class="text-slate-800 font-bold">›</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="relative overflow-hidden h-24 px-5 rounded-[1.5rem] flex items-center shadow-md group cursor-pointer" style="background:linear-gradient(135deg, #06B6D4EE, #06B6D4)">
+          <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl select-none group-hover:opacity-20 transition-opacity pointer-events-none">🛡️</div>
+          <div class="absolute -bottom-4 -left-4 opacity-5 text-9xl select-none rotate-12 pointer-events-none">☁️</div>
+          <div class="flex items-center gap-4 z-10 w-full text-left">
+            <div class="flex-shrink-0 w-16 h-16 bg-white/20 rounded-xl backdrop-blur-sm flex items-center justify-center shadow-inner relative">
+              <div class="relative z-10 text-2xl">🏆</div>
+            </div>
+            <div class="flex-grow min-w-0 py-1">
+              <h3 class="font-bold text-xl text-white mb-0 leading-tight tracking-tight drop-shadow-sm">Missões da Fé</h3>
+              <p class="text-white/90 font-medium text-[12px] leading-tight line-clamp-2 opacity-90">Pequenos desafios, grandes lições</p>
+            </div>
+            <div class="flex-shrink-0">
+              <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md">
+                <span class="text-slate-800 font-bold">›</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Veja os jogos em ação Section -->
+    <section class="py-20 bg-white px-6 text-center relative overflow-hidden">
+      <div class="absolute top-10 right-[10%] text-2xl opacity-20 pointer-events-none">⭐</div>
+      <div class="absolute bottom-10 left-[10%] text-2xl opacity-20 pointer-events-none">✨</div>
+      <div class="absolute top-1/2 left-5 text-2xl opacity-10 pointer-events-none">🌈</div>
+      
+      <div class="container mx-auto max-w-5xl">
+        <h2 class="text-4xl md:text-5xl font-black mb-4 text-blue-900">Veja os jogos em ação 📸</h2>
+        <p class="text-lg text-slate-500 mb-12 font-medium">Veja por dentro como é a experiência do Pequenos da Fé.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+          <!-- Card 1 -->
+          <div class="bg-white rounded-[2rem] overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.08)] border border-slate-100 flex flex-col">
+            <div class="bg-slate-50 aspect-[9/16] flex items-center justify-center border-b border-slate-50 relative overflow-hidden mx-auto w-full md:max-w-md">
+              <img src="./images/sons-animais-screenshot.png" alt="Sons de Animais" class="w-full h-full object-contain object-center" />
+            </div>
+            <div class="py-4 px-6 text-white font-bold text-lg flex items-center justify-center gap-2" style="background-color:#0EA5E9">
+              <span>🎮</span>
+              <span>Sons de Animais</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white rounded-[2rem] overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.08)] border border-slate-100 flex flex-col">
+            <div class="bg-slate-50 aspect-[9/16] flex items-center justify-center border-b border-slate-50 relative overflow-hidden mx-auto w-full md:max-w-md">
+              <img src="./images/pintando-biblia-screenshot.png" alt="Pintando a Bíblia" class="w-full h-full object-contain object-center" />
+            </div>
+            <div class="py-4 px-6 text-white font-bold text-lg flex items-center justify-center gap-2" style="background-color:#EC4899">
+              <span>🎨</span>
+              <span>Pintando a Bíblia</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white rounded-[2rem] overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.08)] border border-slate-100 flex flex-col">
+            <div class="bg-slate-50 aspect-[9/16] flex items-center justify-center border-b border-slate-50 relative overflow-hidden mx-auto w-full md:max-w-md">
+              <img src="./images/onde-esta-screenshot.png" alt="Onde Está?" class="w-full h-full object-contain object-center" />
+            </div>
+            <div class="py-4 px-6 text-white font-bold text-lg flex items-center justify-center gap-2" style="background-color:#F97316">
+              <span>🔎</span>
+              <span>Onde Está?</span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white rounded-[2rem] overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.08)] border border-slate-100 flex flex-col">
+            <div class="bg-slate-50 aspect-[9/16] flex items-center justify-center border-b border-slate-50 relative overflow-hidden mx-auto w-full md:max-w-md">
+              <img src="./images/memory-game-screenshot.png" alt="Jogo da Memória" class="w-full h-full object-contain object-center" />
+            </div>
+            <div class="py-4 px-6 text-white font-bold text-lg flex items-center justify-center gap-2" style="background-color:#8B5CF6">
+              <span>🧠</span>
+              <span>Jogo da Memória</span>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-white rounded-[2rem] overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.08)] border border-slate-100 flex flex-col md:col-span-2 md:max-w-md md:mx-auto w-full">
+            <div class="bg-slate-50 aspect-[9/16] flex items-center justify-center border-b border-slate-50 relative overflow-hidden mx-auto w-full">
+              <img src="./images/historinhas-screenshot.png" alt="Historinhas Bíblicas" class="w-full h-full object-contain object-center" />
+            </div>
+            <div class="py-4 px-6 text-white font-bold text-lg flex items-center justify-center gap-2" style="background-color:#22C55E">
+              <span>📖</span>
+              <span>Historinhas Bíblicas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Much more than games -->
+    <section class="py-24 px-6 relative overflow-hidden" style="background-color:#F0F9FF">
+      <div class="absolute top-10 left-10 text-4xl opacity-20">☁️</div>
+      <div class="absolute bottom-10 right-10 text-4xl opacity-20">☁️</div>
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl md:text-5xl font-black mb-16 text-blue-900">Muito mais do que apenas jogos.</h2>
+        <div class="grid md:grid-cols-4 gap-6">
+          <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-md transition border-4 border-white">
+            <div class="text-4xl mb-4">📖</div>
+            <h3 class="font-bold text-lg mb-2 text-blue-900">Histórias Bíblicas</h3>
+            <p class="text-sm text-slate-500 font-medium">Conteúdos para aprender e conhecer histórias da Bíblia.</p>
+          </div>
+          <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-md transition border-4 border-white">
+            <div class="text-4xl mb-4">🏅</div>
+            <h3 class="font-bold text-lg mb-2 text-blue-900">Meu Álbum</h3>
+            <p class="text-sm text-slate-500 font-medium">A criança acompanha suas conquistas.</p>
+          </div>
+          <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-md transition border-4 border-white">
+            <div class="text-4xl mb-4">⭐</div>
+            <h3 class="font-bold text-lg mb-2 text-blue-900">Conquistas</h3>
+            <p class="text-sm text-slate-500 font-medium">Estrelas, níveis e progresso tornam a experiência envolvente.</p>
+          </div>
+          <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-md transition border-4 border-white">
+            <div class="text-4xl mb-4">❤️</div>
+            <h3 class="font-bold text-lg mb-2 text-blue-900">Para as Famílias</h3>
+            <p class="text-sm text-slate-500 font-medium">Conteúdos pensados para aproximar aprendizado e família.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Banner -->
+    <section class="py-24 bg-sky-400 text-white px-6 text-center">
+      <div class="container mx-auto max-w-4xl">
+        <h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">Diversão que ensina valores para a vida toda.</h2>
+        <p class="text-xl opacity-90 mb-12 font-medium">Aqui a criança participa, descobre e aprende enquanto se diverte em um ambiente seguro e cristão.</p>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="flex flex-col items-center">
+            <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-3xl mb-4 shadow-inner">✨</div>
+            <p class="font-bold">Estimula a curiosidade</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-3xl mb-4 shadow-inner">🎮</div>
+            <p class="font-bold">Aprendizado interativo</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-3xl mb-4 shadow-inner">📖</div>
+            <p class="font-bold text-sm leading-snug">Valores e histórias cristãs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="como-funciona" class="py-20 container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-black mb-16 text-blue-900">Simples de começar, impossível de parar!</h2>
+      <div class="flex flex-col md:flex-row items-start justify-center gap-12 relative">
+        <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 border-t-2 border-dashed border-sky-200 -z-10"></div>
+        <div class="flex-1 flex flex-col items-center bg-white p-6 rounded-3xl md:bg-transparent border md:border-0 border-sky-100">
+          <div class="w-16 h-16 bg-sky-400 text-white rounded-full flex items-center justify-center text-2xl font-black mb-6 border-8 border-white shadow-lg">1</div>
+          <h3 class="font-bold text-xl mb-2 text-blue-900">Acesse</h3>
+          <p class="text-slate-500 font-medium">Abra o Pequenos da Fé no tablet ou celular.</p>
+        </div>
+        <div class="flex-1 flex flex-col items-center bg-white p-6 rounded-3xl md:bg-transparent border md:border-0 border-sky-100">
+          <div class="w-16 h-16 bg-sky-400 text-white rounded-full flex items-center justify-center text-2xl font-black mb-6 border-8 border-white shadow-lg">2</div>
+          <h3 class="font-bold text-xl mb-2 text-blue-900">Escolha</h3>
+          <p class="text-slate-500 font-medium">A criança escolhe entre jogos ou histórias bíblicas.</p>
+        </div>
+        <div class="flex-1 flex flex-col items-center bg-white p-6 rounded-3xl md:bg-transparent border md:border-0 border-sky-100">
+          <div class="w-16 h-16 bg-sky-400 text-white rounded-full flex items-center justify-center text-2xl font-black mb-6 border-8 border-white shadow-lg">3</div>
+          <h3 class="font-bold text-xl mb-2 text-blue-900">Brinque</h3>
+          <p class="text-slate-500 font-medium">Ganhe estrelas, complete desafios e aprenda sobre Deus.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Families -->
+    <section id="famílias" class="py-20 bg-white px-6">
+      <div class="container mx-auto max-w-4xl">
+        <h2 class="text-4xl font-black mb-12 text-center text-blue-900">O que os pais mais amam ❤️</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="flex items-center gap-4 p-6 bg-sky-50 rounded-2xl border-4 border-white shadow-sm">
+            <div class="text-sky-500 text-2xl">⭐</div>
+            <p class="font-bold text-blue-900">Aprendizado leve e divertido</p>
+          </div>
+          <div class="flex items-center gap-4 p-6 bg-sky-50 rounded-2xl border-4 border-white shadow-sm">
+            <div class="text-sky-500 text-2xl">⭐</div>
+            <p class="font-bold text-blue-900">Interface segura e colorida</p>
+          </div>
+          <div class="flex items-center gap-4 p-6 bg-sky-50 rounded-2xl border-4 border-white shadow-sm">
+            <div class="text-sky-500 text-2xl">⭐</div>
+            <p class="font-bold text-blue-900">Histórias bíblicas interativas</p>
+          </div>
+          <div class="flex items-center gap-4 p-6 bg-sky-50 rounded-2xl border-4 border-white shadow-sm">
+            <div class="text-sky-500 text-2xl">⭐</div>
+            <p class="font-bold text-blue-900">Sistema de recompensas (estrelas)</p>
+          </div>
+          <div class="flex items-center gap-4 p-6 bg-sky-50 rounded-2xl border-4 border-white shadow-sm">
+            <div class="text-sky-500 text-2xl">⭐</div>
+            <p class="font-bold text-blue-900">Ambiente livre de anúncios</p>
+          </div>
+          <div class="flex items-center gap-4 p-6 bg-sky-50 rounded-2xl border-4 border-white shadow-sm">
+            <div class="text-sky-500 text-2xl">⭐</div>
+            <p class="font-bold text-blue-900">Experiência educativa e cristã</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offer / Checkout -->
+    <section id="oferta" class="py-20 px-6 text-center" style="background-color:#F0F9FF">
+      <div class="max-w-xl mx-auto bg-white p-6 md:p-8 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-2 border-sky-200 ring-4 ring-sky-100/30 transition-all hover:shadow-[0_20px_60px_rgba(56,189,248,0.2)]">
+        <div class="mb-4 md:mb-6 flex justify-center">
+          <img src="./images/checkout-mockup.png" alt="Pequenos da Fé Mockup" class="w-full h-auto max-w-[280px] md:max-w-[380px] object-contain" />
+        </div>
+        <h2 class="text-2xl md:text-3xl font-black mb-1 text-blue-900 leading-tight">Dê este presente para o seu pequeno! ⭐</h2>
+        <p class="text-xs md:text-sm text-slate-500 mb-4 font-medium leading-tight">Acesso imediato a todos os jogos e histórias do Pequenos da Fé.</p>
+        <div class="flex items-center justify-center gap-3 mb-4">
+          <span class="line-through text-slate-400 text-base font-bold">R$ 97,00</span>
+          <span class="text-3xl md:text-4xl font-black text-sky-500">R$ 27,90</span>
+        </div>
+        <div class="flex gap-1.5 justify-center mb-6 flex-wrap">
+          <div class="px-2.5 py-1 bg-yellow-100 text-yellow-800 rounded-full font-bold text-[9px] uppercase tracking-wider">PAGAMENTO ÚNICO</div>
+          <div class="px-2.5 py-1 bg-sky-100 text-sky-800 rounded-full font-bold text-[9px] uppercase tracking-wider">SEM MENSALIDADES</div>
+          <div class="px-2.5 py-1 bg-purple-100 text-purple-800 rounded-full font-bold text-[9px] uppercase tracking-wider">ACESSO VITALÍCIO</div>
+        </div>
+        <button class="w-full max-w-xs mx-auto bg-[#22C55E] text-white px-6 py-3.5 rounded-2xl font-black text-base md:text-lg hover:bg-green-600 transition shadow-[0_4px_0_rgb(21,128,61)] transform hover:scale-[1.02] active:scale-95 active:shadow-none active:translate-y-[2px] block uppercase tracking-wide">QUERO O PEQUENOS DA FÉ</button>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-24 container mx-auto px-6 max-w-4xl text-blue-900">
+      <h2 class="text-4xl font-black mb-16 text-center">Dúvidas comuns ❓</h2>
+      <div class="space-y-4">
+        <div class="bg-sky-50 p-8 rounded-3xl border-4 border-white shadow-sm">
+          <h3 class="font-bold text-lg mb-2 text-sky-600">Para qual idade é indicado?</h3>
+          <p class="text-blue-900/70 font-medium">O Pequenos da Fé é ideal para crianças de 3 a 12 anos, com interface intuitiva que dispensa leitura avançada.</p>
+        </div>
+        <div class="bg-sky-50 p-8 rounded-3xl border-4 border-white shadow-sm">
+          <h3 class="font-bold text-lg mb-2 text-sky-600">O que vem no pacote?</h3>
+          <p class="text-blue-900/70 font-medium">Acesso completo a todos os jogos, histórias interativas e sistema de conquistas.</p>
+        </div>
+        <div class="bg-sky-50 p-8 rounded-3xl border-4 border-white shadow-sm">
+          <h3 class="font-bold text-lg mb-2 text-sky-600">Preciso pagar todo mês?</h3>
+          <p class="text-blue-900/70 font-medium">Não! O pagamento é único. Você paga uma vez e tem acesso vitalício.</p>
+        </div>
+        <div class="bg-sky-50 p-8 rounded-3xl border-4 border-white shadow-sm">
+          <h3 class="font-bold text-lg mb-2 text-sky-600">Funciona em quais aparelhos?</h3>
+          <p class="text-blue-900/70 font-medium">Funciona perfeitamente em celulares e tablets (Android e iOS).</p>
+        </div>
+        <div class="bg-sky-50 p-8 rounded-3xl border-4 border-white shadow-sm">
+          <h3 class="font-bold text-lg mb-2 text-sky-600">É seguro para crianças?</h3>
+          <p class="text-blue-900/70 font-medium">Totalmente. O conteúdo é 100% cristão e educativo, sem anúncios ou links externos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-white text-center text-slate-400 border-t border-sky-100">
+      <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-sm border border-sky-100 overflow-hidden">
+        <img src="./images/logo.png" alt="Logo" class="w-full h-full object-contain p-1" />
+      </div>
+      <p class="font-bold text-blue-900 mb-1 text-lg">Pequenos da Fé</p>
+      <p class="text-sm font-medium text-sky-500">Brincando e aprendendo sobre o amor de Deus.</p>
+      <p class="text-xs mt-8 opacity-50">© 2026 Pequenos da Fé. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>
